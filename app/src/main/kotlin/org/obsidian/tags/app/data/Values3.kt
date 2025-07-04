@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 
 
 @Serializable
-data class Values(
+data class Values3(
     @SerialName("BackgroundOpacity")
     var backgroundOpacity: Double? = null,
     @SerialName("CardBackgroundOpacity")
