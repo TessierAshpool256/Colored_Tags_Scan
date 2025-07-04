@@ -15,5 +15,5 @@ data class FolderNote(
     @SerialName("EnableBackgroundOpacity")
     var enableBackgroundOpacity: Boolean? = null,
     @SerialName("Values")
-    var values: Values? = Values()
+    var values: Values2? = Values2()
 )

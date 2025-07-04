@@ -15,5 +15,5 @@ data class TagColors(
     @SerialName("EnableBackgroundOpacity")
     var enableBackgroundOpacity: Boolean? = null,
     @SerialName("Values")
-    var values: Values? = Values()
+    var values: Values1? = Values1()
 )

@@ -7,7 +7,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class FolderTagLinks(
     @SerialName("tag_name")
-    var tagName: String? = null,
+    var tagName: String = "",
     @SerialName("folder_path")
-    var folderPath: String? = null
+    var folderPath: String = ""
 )

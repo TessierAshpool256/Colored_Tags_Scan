@@ -3,13 +3,13 @@ package org.obsidian.tags.app.data
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
-
+@Suppress("ConstructorParameterNaming")
 @Serializable
 data class DataJsonDto(
     @SerialName("TagColors")
     var tagColors: TagColors = TagColors(),
     @SerialName("CSS")
-    var cSS: CSS = CSS(),
+    var CSS: CSS = CSS(),
     @SerialName("FolderNote")
     var folderNote: FolderNote = FolderNote(),
     @SerialName("Kanban")

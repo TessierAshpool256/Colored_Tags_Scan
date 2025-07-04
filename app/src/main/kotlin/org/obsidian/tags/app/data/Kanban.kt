@@ -11,5 +11,5 @@ data class Kanban(
     @SerialName("EnableLists") var enableLists: Boolean? = null,
     @SerialName("HideHashtags") var hideHashtags: Boolean? = null,
     @SerialName("EnableBackgroundOpacity") var enableBackgroundOpacity: Boolean? = null,
-    @SerialName("Values") var values: Values = Values()
+    @SerialName("Values") var values: Values3 = Values3()
 )

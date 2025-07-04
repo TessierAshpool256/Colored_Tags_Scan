@@ -11,5 +11,5 @@ data class Canvas(
     @SerialName("EnableBackgroundOpacity")
     var enableBackgroundOpacity: Boolean? = null,
     @SerialName("Values")
-    var values: Values? = Values()
+    var values: Values4? = Values4()
 )

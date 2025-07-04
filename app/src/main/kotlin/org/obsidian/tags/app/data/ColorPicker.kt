@@ -7,7 +7,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class ColorPicker(
     @SerialName("tag_name")
-    var tagName: String? = null,
+    var tagName: String = "",
     @SerialName("color")
     var color: Color? = Color(),
     @SerialName("background_color")
